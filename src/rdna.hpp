@@ -3,7 +3,10 @@
 
 using namespace std;
 
-string randDNA(int seed, string bases, int length)
+string randDNA(int seed, string bases, int n)
 {
-	return bases;
+	for (int i=0; i=n; i++)
+	{
+		return bases;
+	}
 }
