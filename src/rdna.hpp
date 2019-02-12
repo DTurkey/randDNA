@@ -10,3 +10,4 @@ string randDNA(int seed, string bases, int n)
 		return bases;
 	}
 }
+
