@@ -5,9 +5,11 @@ using namespace std;
 
 string randDNA(int seed, string bases, int n)
 {
-	for (int i=0; i=n; i++)
+	for (unsigned int i=0; i < bases.size(); i++)
 	{
-		return bases;
+		cout << bases[i];
 	}
+return bases;
 }
+
 
