@@ -6,12 +6,16 @@ using namespace std;
 
 string randDNA(int seed, string bases, int n)
 {
-	for (unsigned int i = 0; i < n; i++)
-	{
-		if (n = bases.size())
-			return " ";
-	}
-return " ";
+	for (int i = 0; i < seed; i++)
+		for ( char ch: bases)
+		{
+			ch = rand()/n;
+			cout<<ch;
+		}
+			
+			
+
+return " ";			
 }
 
 
